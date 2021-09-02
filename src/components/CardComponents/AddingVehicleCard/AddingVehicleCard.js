@@ -95,6 +95,7 @@ const AddingVehicleCard = ({ vehicles, parkings, updateVehicles, blacklist }) =>
         }
         try {
             const { data } = await getParkings();
+            setPlaceholder("Select Parking");
             setSelectedParking(data[0].name);
           } catch (err) {
           }
