@@ -1,0 +1,63 @@
+.content-holder
+{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-top: 15%;
+    padding: 50px;
+    -webkit-transform: skew(-26deg, 0);
+}
+
+.content-holder h2
+{
+    font-size: 38px;
+    margin: 20px auto;
+}
+
+.content-holder p
+{
+    margin: 30px auto;
+}
+
+
+
+.box-2{
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.login-form-container
+{
+    text-align: center;
+    margin: 3% 5% 3% 8%;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 0px 50px 30px 30px;
+
+}
+
+.login-form-container h1
+{
+    color: black;
+    font-size: 26px;
+    padding: 20px;
+    -webkit-transform           : skew(-26deg, 0);
+}
+
+.login-form-container Button, h3, ProfileCard
+{
+    -webkit-transform           : skew(-26deg, 0);
+}
+
+.input-field
+{
+    border-radius: 10px;
+    margin: 3%;
+    text-align: center;
+    width: 350px;
+    -webkit-transform           : skew(-26deg, 0);
+}
