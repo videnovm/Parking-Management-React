@@ -7,7 +7,7 @@ const auth_configuration = {
 };
 
 const instance = axios.create({
-  baseURL: "https://parkingapps.herokuapp.com/api",
+  baseURL: "http://localhost:8080/api",
 });
 
 //parking_owner
